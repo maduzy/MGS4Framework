@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\texture">
+      <UniqueIdentifier>{9db4c267-cc0e-4900-bfe1-c10c8101330c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{a143ea50-3e60-4474-81d1-82e32908f05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filetypes">
+      <UniqueIdentifier>{15bb6b25-0270-45fa-9593-71705f464cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{07749df1-f575-403f-87a2-4e2f81c423ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\texture">
+      <UniqueIdentifier>{6e14393b-53f0-47f5-b5ad-85bf24c35ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filetypes\mgs4">
+      <UniqueIdentifier>{696516c2-f45f-4b11-af05-89e3ab289adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\archive">
+      <UniqueIdentifier>{fe426005-1e63-4856-a6bc-e6d6eb027936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\archive">
+      <UniqueIdentifier>{da3b5a08-2882-4a8e-b625-f45f3a704fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filetypes">
+      <UniqueIdentifier>{bc55cebe-025a-47ae-8bda-71b2e04f45fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{66ebc1d9-b086-4637-84f3-546fec717575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{02ceb386-24c8-45e8-8dd5-7f950c1c4fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filetypes\half">
+      <UniqueIdentifier>{e53e6035-91aa-464b-b126-a1eec5e5c129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\half">
+      <UniqueIdentifier>{b525bfff-3708-4407-9d6d-99b738538a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filetypes\dds">
+      <UniqueIdentifier>{c4b14a67-872d-4c8e-a31e-670b83b72547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TxnHandler.cpp">
+      <Filter>Source Files\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsHandler.cpp">
+      <Filter>Source Files\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSHash.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="ZlibWrapper.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="DarHandler.cpp">
+      <Filter>Source Files\archive</Filter>
+    </ClCompile>
+    <ClCompile Include="SegHandler.cpp">
+      <Filter>Source Files\archive</Filter>
+    </ClCompile>
+    <ClCompile Include="QarHandler.cpp">
+      <Filter>Source Files\archive</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTypes.cpp">
+      <Filter>Source Files\filetypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotHandler.cpp">
+      <Filter>Source Files\archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNames.cpp">
+      <Filter>Source Files\filetypes</Filter>
+    </ClCompile>
+    <ClCompile Include="MdnHandler.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Half\half.cpp">
+      <Filter>Source Files\half</Filter>
+    </ClCompile>
+    <ClCompile Include="HexOps.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZlibWrapper.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsHandler.h">
+      <Filter>Header Files\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TxnHandler.h">
+      <Filter>Header Files\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSHash.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Txn.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlz.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="Seg.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="Tex.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS.h">
+      <Filter>Header Files\filetypes\dds</Filter>
+    </ClInclude>
+    <ClInclude Include="Dar.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="DarHandler.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="SegHandler.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Qar.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="QarHandler.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTypes.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotHandler.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNames.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="Mdn.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="Mtar.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="MdnHandler.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Half\half.h">
+      <Filter>Header Files\filetypes\half</Filter>
+    </ClInclude>
+    <ClInclude Include="Geom.h">
+      <Filter>Header Files\filetypes\mgs4</Filter>
+    </ClInclude>
+    <ClInclude Include="HexOps.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

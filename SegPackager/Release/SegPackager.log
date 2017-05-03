@@ -1,0 +1,33 @@
+﻿  DarHandler.cpp
+DarHandler.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+DarHandler.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+DarHandler.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+DarHandler.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+  DdsHandler.cpp
+DdsHandler.cpp(10): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+DdsHandler.cpp(69): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+  Examples.cpp
+  FileHandler.cpp
+FileHandler.cpp(47): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+FileHandler.cpp(122): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+  FileNames.cpp
+  FileTypes.cpp
+  Main.cpp
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\ZlibWrapper.h(7): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory
+  MGSHash.cpp
+  QarHandler.cpp
+QarHandler.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+  SegHandler.cpp
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\ZlibWrapper.h(7): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory
+  SlotHandler.cpp
+SlotHandler.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+SlotHandler.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+SlotHandler.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+SlotHandler.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+SlotHandler.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+SlotHandler.cpp(238): warning C4018: '<' : signed/unsigned mismatch
+SlotHandler.cpp(248): warning C4018: '<' : signed/unsigned mismatch
+  TxnHandler.cpp
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\ZlibWrapper.h(7): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory
+  ZlibWrapper.cpp
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\ZlibWrapper.h(7): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory

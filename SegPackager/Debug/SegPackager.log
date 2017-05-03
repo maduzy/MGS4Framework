@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SegPackager.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\filehandler.h(18): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\mdn.h(12): warning C4091: 'typedef ' : ignored on left of 'Vertex' when no variable is declared
+c:\users\jayveer\documents\visual studio 2013\projects\segpackager\segpackager\main.cpp(20): warning C4101: 'mdnHandler' : unreferenced local variable
+  SegPackager.vcxproj -> C:\Users\Jayveer\Documents\Visual Studio 2013\Projects\SegPackager\Debug\MGS4Framework.exe
